@@ -1,6 +1,6 @@
 class Field {
-    constructor(fieldArray) {
-        this.field = fieldArray;
+    constructor(field) {
+        this.field = field;
         this.rowLocation = 0;
         this.columnLocation = 0;
 
@@ -97,6 +97,36 @@ class Field {
             return 4;
         }
 
+    }
+    static generateField(height, width) {
+
+
+        let elements = ['░', 'O'];
+
+        let field = [];
+
+        let firstRow = [];
+        for (let j = 0; j < width; j++) {
+            firstRow.push(elements[Math.floor(Math.random() * elements.length)]);
+        }
+        firstRow[0] = '*';
+
+        field.push(firstRow);
+
+        for (let i = 1; i < height; i++) {
+            let row = [];
+            for (let j = 0; j < width; j++) {
+                let element = elements[Math.floor(Math.random() * elements.length)];
+                row.push(element);
+            }
+            field.push(row);
+        }
+
+        let lastRowIndex = height - 1;
+        let randomIndex = Math.floor(Math.random() * width);
+        field[lastRowIndex][randomIndex] = '^'; 
+
+        return field;
     }
 
 
