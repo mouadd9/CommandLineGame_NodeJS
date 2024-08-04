@@ -24,8 +24,10 @@ This game allows players to move within a field by providing commands. The field
 ## Usage
 
 To start the game, run:
+
 ```sh
 node main.js
+```
 
 ### How to Play
 
