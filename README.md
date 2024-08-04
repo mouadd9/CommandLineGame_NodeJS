@@ -2,6 +2,10 @@
 
 A command-line game built with Node.js where the player navigates through a field, avoiding obstacles and trying to reach a goal.
 
+# DEMO
+
+![Uploading find-your-hat-demo.gif…]()
+
 ## Description
 
 This game allows players to move within a field by providing commands. The field consists of open spaces, obstacles, and the player’s position. The objective is to navigate through the field without hitting obstacles to reach the goal.
