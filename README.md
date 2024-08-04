@@ -56,31 +56,3 @@ This file handles user interaction and the game loop. It prompts the user for th
 
 This file defines the `Field` class, which includes methods for generating the field, printing the field, and moving the player within the field.
 
-## Contributing
-
-1.  Fork the repository.
-2.  Create a new branch:
-    
-    sh
-    
-    Copy code
-    
-    `git checkout -b feature-branch-name` 
-    
-3.  Make your changes and commit them:
-    
-    sh
-    
-    Copy code
-    
-    `git commit -m 'Add some feature'` 
-    
-4.  Push to the branch:
-    
-    sh
-    
-    Copy code
-    
-    `git push origin feature-branch-name` 
-    
-5.  Submit a pull request.
