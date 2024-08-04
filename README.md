@@ -2,8 +2,7 @@
 
 A command-line game built with Node.js where the player navigates through a field, avoiding obstacles and trying to reach a goal.
 
-# DEMO
-
+## DEMO
 ![find-your-hat-demo](https://github.com/user-attachments/assets/c6746575-bfbf-409d-a13e-35daecba7a85)
 
 ## Description
