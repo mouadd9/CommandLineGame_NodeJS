@@ -29,20 +29,20 @@ node main.js
 
 ### How to Play
 
-* You will be prompted to enter the height and width of the field.
-* The game will generate a field with random obstacles (`O`) and an initial player position (`*`).
-* Use the following commands to move:
-    * `u`: Move up
-    * `d`: Move down
-    * `l`: Move left
-    * `r`: Move right
-* The objective is to move to the end of the field without hitting any obstacles.
+-   You will be prompted to enter the height and width of the field.
+-   The game will generate a field with random obstacles (`O`) and an initial player position (`*`).
+-   Use the following commands to move:
+    -   `u`: Move up
+    -   `d`: Move down
+    -   `l`: Move left
+    -   `r`: Move right
+-   The objective is to move to the end of the field without hitting any obstacles.
 
 ## Features
 
-* Customizable field size
-* Randomly generated fields with obstacles
-* Simple command interface for navigation
+-   Customizable field size
+-   Randomly generated fields with obstacles
+-   Simple command interface for navigation
 
 ## Code Overview
 
@@ -56,18 +56,29 @@ This file defines the `Field` class, which includes methods for generating the f
 
 ## Contributing
 
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature-branch-name
-    ```
-3. Make your changes and commit them:
-    ```sh
-    git commit -m 'Add some feature'
-    ```
-4. Push to the branch:
-    ```sh
-    git push origin feature-branch-name
-    ```
-5. Submit a pull request.
-
+1.  Fork the repository.
+2.  Create a new branch:
+    
+    sh
+    
+    Copy code
+    
+    `git checkout -b feature-branch-name` 
+    
+3.  Make your changes and commit them:
+    
+    sh
+    
+    Copy code
+    
+    `git commit -m 'Add some feature'` 
+    
+4.  Push to the branch:
+    
+    sh
+    
+    Copy code
+    
+    `git push origin feature-branch-name` 
+    
+5.  Submit a pull request.
