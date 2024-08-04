@@ -4,7 +4,7 @@ A command-line game built with Node.js where the player navigates through a fiel
 
 # DEMO
 
-![Uploading find-your-hat-demo.gif…]()
+![find-your-hat-demo](https://github.com/user-attachments/assets/c6746575-bfbf-409d-a13e-35daecba7a85)
 
 ## Description
 
